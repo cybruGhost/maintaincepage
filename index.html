@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Site Maintenance | Exciting Updates Coming Soon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6c5ce7;
+            --secondary: #a29bfe;
+            --accent: #fd79a8;
+            --text: #f5f6fa;
+            --background: #2d3436;
+            --card-bg: rgba(45, 52, 54, 0.85);
+            --progress-start: #6c5ce7;
+            --progress-end: #fd79a8;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            overflow-x: hidden;
+            min-height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        
+        #canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            opacity: 0.6;
+        }
+        
+        .maintenance-container {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+            width: 90%;
+            background-color: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 24px;
+            padding: 3.5rem;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            margin: 2rem 0;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        
+        .maintenance-container:hover {
+            transform: translateY(-5px) rotateX(1deg) rotateY(1deg);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+        }
+        
+        .maintenance-container::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(
+                transparent, 
+                rgba(255, 255, 255, 0.1), 
+                transparent 70%
+            );
+            animation: rotate 6s linear infinite;
+            z-index: -1;
+            opacity: 0.7;
+        }
+        
+        .maintenance-container::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 24px;
+            padding: 1px;
+            background: linear-gradient(135deg, rgba(255,255,255,0.2), rgba(255,255,255,0));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+        
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .logo {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+            letter-spacing: -1px;
+            animation: textGlow 3s ease-in-out infinite alternate;
+        }
+        
+        @keyframes textGlow {
+            0% { text-shadow: 0 4px 15px rgba(108, 92, 231, 0.3); }
+            100% { text-shadow: 0 4px 25px rgba(253, 121, 168, 0.4); }
+        }
+        
+        .maintenance-icon {
+            font-size: 5rem;
+            margin: 2rem 0;
+            animation: float 4s ease-in-out infinite, pulse 2s ease-in-out infinite alternate;
+            color: var(--accent);
+            filter: drop-shadow(0 5px 15px rgba(253, 121, 168, 0.4));
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1); }
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(90deg, var(--text), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1.2;
+        }
+        
+        p {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            color: rgba(245, 246, 250, 0.85);
+            font-weight: 300;
+        }
+        
+        .highlight {
+            color: var(--accent);
+            font-weight: 500;
+        }
+        
+        .progress-container {
+            width: 100%;
+            height: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            margin: 2.5rem 0;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, var(--progress-start), var(--progress-end));
+            border-radius: 10px;
+            animation: progress 3s ease-in-out infinite alternate;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .progress-bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(90deg, 
+                rgba(255,255,255,0.1) 0%, 
+                rgba(255,255,255,0.4) 50%, 
+                rgba(255,255,255,0.1) 100%);
+            animation: shine 2s linear infinite;
+        }
+        
+        @keyframes progress {
+            0% { 
+                width: 10%; 
+                background: linear-gradient(90deg, var(--progress-start), var(--accent));
+            }
+            100% { 
+                width: 90%; 
+                background: linear-gradient(90deg, var(--primary), var(--progress-end));
+            }
+        }
+        
+        @keyframes shine {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        
+        .countdown {
+            margin: 2.5rem 0;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            perspective: 1000px;
+        }
+        
+        .countdown-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        
+        .countdown-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            min-width: 80px;
+            text-align: center;
+            padding: 0.5rem 1rem;
+            border-radius: 12px;
+            position: relative;
+            transform-style: preserve-3d;
+            animation: countdownFlip 0.5s ease-out;
+            text-shadow: 0 2px 10px rgba(108, 92, 231, 0.3);
+        }
+        
+        .countdown-number::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 10px;
+            padding: 2px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+        
+        .countdown-label {
+            font-size: 0.85rem;
+            color: var(--secondary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 0.5rem;
+            font-weight: 500;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .stat-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 1.5rem 1rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .stat-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--text), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 300;
+        }
+        
+        .contact-section {
+            margin-top: 2rem;
+            padding: 2rem;
+            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .contact-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, 
+                transparent 0%, 
+                rgba(255, 255, 255, 0.03) 50%, 
+                transparent 100%);
+            z-index: -1;
+            animation: shine 6s linear infinite;
+        }
+        
+        .contact-title {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: var(--text);
+            font-weight: 600;
+        }
+        
+        .email-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: var(--text);
+            text-decoration: none;
+            padding: 1rem 2rem;
+            background: linear-gradient(90deg, rgba(108, 92, 231, 0.3), rgba(253, 121, 168, 0.3));
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .email-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, 
+                transparent, 
+                rgba(255, 255, 255, 0.2), 
+                transparent);
+            transition: all 0.5s ease;
+        }
+        
+        .email-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(108, 92, 231, 0.3);
+        }
+        
+        .email-link:hover::before {
+            left: 100%;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .social-link {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text);
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            font-size: 1.4rem;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .social-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, var(--primary), var(--accent));
+            z-index: -1;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .social-link:hover {
+            transform: translateY(-5px) scale(1.1);
+            box-shadow: 0 10px 20px rgba(108, 92, 231, 0.3);
+            color: white;
+        }
+        
+        .social-link:hover::before {
+            opacity: 1;
+        }
+        
+        .whatsapp { --social-color: #25D366; }
+        .twitter { --social-color: #1DA1F2; }
+        .instagram { --social-color: #E1306C; }
+        .facebook { --social-color: #4267B2; }
+        
+        .social-link:hover.whatsapp { box-shadow: 0 10px 20px rgba(37, 211, 102, 0.3); }
+        .social-link:hover.twitter { box-shadow: 0 10px 20px rgba(29, 161, 242, 0.3); }
+        .social-link:hover.instagram { box-shadow: 0 10px 20px rgba(225, 48, 108, 0.3); }
+        .social-link:hover.facebook { box-shadow: 0 10px 20px rgba(66, 103, 178, 0.3); }
+        
+        .floating-shapes {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+            pointer-events: none;
+        }
+        
+        .shape {
+            position: absolute;
+            opacity: 0.1;
+            animation: floatShape 15s linear infinite;
+        }
+        
+        .shape:nth-child(1) {
+            top: 10%;
+            left: 20%;
+            width: 100px;
+            height: 100px;
+            background: var(--primary);
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            animation-delay: 0s;
+            animation-duration: 20s;
+        }
+        
+        .shape:nth-child(2) {
+            top: 60%;
+            left: 70%;
+            width: 150px;
+            height: 150px;
+            background: var(--accent);
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+            animation-delay: 2s;
+            animation-duration: 25s;
+        }
+        
+        .shape:nth-child(3) {
+            top: 30%;
+            left: 80%;
+            width: 80px;
+            height: 80px;
+            background: var(--secondary);
+            border-radius: 50%;
+            animation-delay: 4s;
+            animation-duration: 15s;
+        }
+        
+        .shape:nth-child(4) {
+            top: 70%;
+            left: 10%;
+            width: 120px;
+            height: 120px;
+            background: var(--accent);
+            border-radius: 40% 60% 60% 40% / 70% 50% 50% 30%;
+            animation-delay: 6s;
+            animation-duration: 30s;
+        }
+        
+        @keyframes floatShape {
+            0% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-100px) rotate(180deg); }
+            100% { transform: translateY(0) rotate(360deg); }
+        }
+        
+        .newsletter {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .newsletter-title {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+        
+        .newsletter-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .newsletter-input {
+            padding: 1rem 1.5rem;
+            border-radius: 50px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text);
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .newsletter-input:focus {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: var(--primary);
+        }
+        
+        .newsletter-button {
+            padding: 1rem 1.5rem;
+            border-radius: 50px;
+            border: none;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            color: white;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        
+        .newsletter-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(108, 92, 231, 0.3);
+        }
+        
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .maintenance-container {
+                padding: 2.5rem;
+                width: 95%;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            p {
+                font-size: 1.05rem;
+            }
+            
+            .maintenance-icon {
+                font-size: 4rem;
+            }
+            
+            .countdown {
+                gap: 1rem;
+            }
+            
+            .countdown-number {
+                font-size: 2rem;
+                min-width: 70px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .stat-number {
+                font-size: 1.8rem;
+            }
+            
+            .stat-icon {
+                font-size: 1.8rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .maintenance-container {
+                padding: 2rem 1.5rem;
+            }
+            
+            .logo {
+                font-size: 2.2rem;
+            }
+            
+            h1 {
+                font-size: 1.7rem;
+            }
+            
+            .countdown {
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+            
+            .countdown-number {
+                font-size: 1.5rem;
+                min-width: 60px;
+                padding: 0.5rem;
+            }
+            
+            .countdown-label {
+                font-size: 0.7rem;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .email-link {
+                padding: 0.8rem 1.5rem;
+                font-size: 1rem;
+            }
+            
+            .social-links {
+                gap: 1rem;
+            }
+            
+            .social-link {
+                width: 45px;
+                height: 45px;
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    
+    <div class="maintenance-container">
+        <div class="logo">NexusPrime</div>
+        <div class="maintenance-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        
+        <h1>Exciting Upgrades Underway!</h1>
+        <p>We're currently performing scheduled maintenance to bring you an <span class="highlight">enhanced experience</span>. Our team is working diligently to implement new features and improvements.</p>
+        
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+        
+        <div class="countdown">
+            <div class="countdown-item">
+                <div class="countdown-number" id="days">00</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="hours">00</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="minutes">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="seconds">00</div>
+                <div class="countdown-label">Seconds</div>
+            </div>
+        </div>
+        
+        <p>We appreciate your patience during this transition. The wait will be worth it!</p>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-code-branch"></i></div>
+                <div class="stat-number" data-count="127">0</div>
+                <div class="stat-label">Code Commits</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-bug"></i></div>
+                <div class="stat-number" data-count="42">0</div>
+                <div class="stat-label">Bugs Fixed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-rocket"></i></div>
+                <div class="stat-number" data-count="15">0</div>
+                <div class="stat-label">New Features</div>
+            </div>
+        </div>
+        
+        <div class="newsletter">
+            <h3 class="newsletter-title">Stay Updated</h3>
+            <p>Get notified when we're back online and receive exclusive updates.</p>
+            <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Your email address" required>
+                <button type="submit" class="newsletter-button">
+                    <i class="fas fa-paper-plane"></i> Subscribe
+                </button>
+            </form>
+        </div>
+        
+        <div class="contact-section">
+            <h3 class="contact-title">Need Immediate Assistance?</h3>
+            <p>Our support team is available to help with any urgent matters during this maintenance period.</p>
+            <a href="mailto:support@nexusprime.com" class="email-link">
+                <i class="fas fa-envelope"></i> support@nexusprime.com
+            </a>
+            
+            <div class="social-links">
+                <a href="#" class="social-link whatsapp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Particle Network Background
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        let width, height;
+        let particles = [];
+        const particleCount = 150;
+        let mouseX = 0, mouseY = 0;
+        const mouseRadius = 100;
+        
+        // Color palette
+        const colors = [
+            'rgba(108, 92, 231, 0.7)',
+            'rgba(162, 155, 254, 0.7)',
+            'rgba(253, 121, 168, 0.7)',
+            'rgba(255, 255, 255, 0.7)'
+        ];
+        
+        function init() {
+            resizeCanvas();
+            createParticles();
+            animate();
+            
+            // Add window resize event listener
+            window.addEventListener('resize', resizeCanvas);
+            window.addEventListener('mousemove', trackMouse);
+            window.addEventListener('click', handleClick);
+        }
+        
+        function resizeCanvas() {
+            width = window.innerWidth;
+            height = window.innerHeight;
+            canvas.width = width;
+            canvas.height = height;
+            
+            // Recreate particles on resize
+            createParticles();
+        }
+        
+        function trackMouse(e) {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        }
+        
+        function handleClick(e) {
+            // Create a burst of particles on click
+            for (let i = 0; i < 20; i++) {
+                particles.push({
+                    x: e.clientX,
+                    y: e.clientY,
+                    size: Math.random() * 4 + 2,
+                    speedX: Math.random() * 6 - 3,
+                    speedY: Math.random() * 6 - 3,
+                    color: colors[Math.floor(Math.random() * colors.length)],
+                    life: 100
+                });
+            }
+        }
+        
+        function createParticles() {
+            particles = [];
+            
+            for (let i = 0; i < particleCount; i++) {
+                particles.push({
+                    x: Math.random() * width,
+                    y: Math.random() * height,
+                    size: Math.random() * 3 + 1,
+                    speedX: Math.random() * 2 - 1,
+                    speedY: Math.random() * 2 - 1,
+                    color: colors[Math.floor(Math.random() * colors.length)],
+                    life: Math.random() * 100 + 100
+                });
+            }
+        }
+        
+        function updateParticles() {
+            for (let i = 0; i < particles.length; i++) {
+                const p = particles[i];
+                
+                // Update position
+                p.x += p.speedX;
+                p.y += p.speedY;
+                
+                // Mouse interaction
+                const dx = mouseX - p.x;
+                const dy = mouseY - p.y;
+                const distance = Math.sqrt(dx * dx + dy * dy);
+                
+                if (distance < mouseRadius) {
+                    const angle = Math.atan2(dy, dx);
+                    const force = (mouseRadius - distance) / mouseRadius * 0.5;
+                    p.speedX += Math.cos(angle) * force;
+                    p.speedY += Math.sin(angle) * force;
+                }
+                
+                // Bounce off edges
+                if (p.x < 0 || p.x > width) p.speedX *= -1;
+                if (p.y < 0 || p.y > height) p.speedY *= -1;
+                
+                // Damping
+                p.speedX *= 0.98;
+                p.speedY *= 0.98;
+                
+                // Life cycle for burst particles
+                if (p.life !== undefined) {
+                    p.life--;
+                    if (p.life <= 0) {
+                        particles.splice(i, 1);
+                        i--;
+                    }
+                }
+            }
+        }
+        
+        function drawParticles() {
+            ctx.clearRect(0, 0, width, height);
+            
+            // Draw connections first (behind particles)
+            drawConnections();
+            
+            // Draw particles
+            for (const p of particles) {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                ctx.fillStyle = p.color;
+                ctx.fill();
+                
+                // Add glow effect
+                ctx.shadowBlur = 10;
+                ctx.shadowColor = p.color;
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+        }
+        
+        function drawConnections() {
+            for (let i = 0; i < particles.length; i++) {
+                for (let j = i + 1; j < particles.length; j++) {
+                    const p1 = particles[i];
+                    const p2 = particles[j];
+                    
+                    const dx = p1.x - p2.x;
+                    const dy = p1.y - p2.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (distance < 100) {
+                        const opacity = 1 - distance / 100;
+                        ctx.beginPath();
+                        ctx.moveTo(p1.x, p1.y);
+                        ctx.lineTo(p2.x, p2.y);
+                        ctx.strokeStyle = `rgba(255, 255, 255, ${opacity * 0.2})`;
+                        ctx.lineWidth = 1;
+                        ctx.stroke();
+                    }
+                }
+            }
+        }
+        
+        function animate() {
+            updateParticles();
+            drawParticles();
+            requestAnimationFrame(animate);
+        }
+        
+        // Countdown Timer
+        function updateCountdown() {
+            // Set the date we're counting down to (24 hours from now)
+            const countDownDate = new Date();
+            countDownDate.setHours(countDownDate.getHours() + 24);
+            
+            const x = setInterval(function() {
+                const now = new Date().getTime();
+                const distance = countDownDate - now;
+                
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                document.getElementById("days").innerHTML = days.toString().padStart(2, '0');
+                document.getElementById("hours").innerHTML = hours.toString().padStart(2, '0');
+                document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, '0');
+                document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
+                
+                // Add flip animation class
+                if (seconds === 59) {
+                    document.querySelectorAll('.countdown-number').forEach(el => {
+                        el.classList.add('flipping');
+                        setTimeout(() => el.classList.remove('flipping'), 500);
+                    });
+                }
+                
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("days").innerHTML = "00";
+                    document.getElementById("hours").innerHTML = "00";
+                    document.getElementById("minutes").innerHTML = "00";
+                    document.getElementById("seconds").innerHTML = "00";
+                }
+            }, 1000);
+        }
+        
+        // Animate counting up for statistics
+        function animateStats() {
+            const statElements = document.querySelectorAll('.stat-number');
+            
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const element = entry.target;
+                        const targetValue = parseInt(element.getAttribute('data-count'));
+                        const duration = 2000; // 2 seconds
+                        const startTime = performance.now();
+                        
+                        function updateCount(currentTime) {
+                            const elapsedTime = currentTime - startTime;
+                            const progress = Math.min(elapsedTime / duration, 1);
+                            
+                            // Easing function for smoother animation
+                            const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+                            
+                            const currentCount = Math.floor(targetValue * easeOutQuart);
+                            element.textContent = currentCount;
+                            
+                            if (progress < 1) {
+                                requestAnimationFrame(updateCount);
+                            } else {
+                                element.textContent = targetValue;
+                            }
+                        }
+                        
+                        requestAnimationFrame(updateCount);
+                        observer.unobserve(element);
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            statElements.forEach(element => {
+                observer.observe(element);
+            });
+        }
+        
+        // Newsletter form submission
+        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const emailInput = this.querySelector('input[type="email"]');
+            const button = this.querySelector('button');
+            
+            // Simulate submission
+            button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Subscribing...';
+            button.disabled = true;
+            
+            setTimeout(() => {
+                button.innerHTML = '<i class="fas fa-check"></i> Subscribed!';
+                emailInput.value = '';
+                
+                // Reset after 2 seconds
+                setTimeout(() => {
+                    button.innerHTML = '<i class="fas fa-paper-plane"></i> Subscribe';
+                    button.disabled = false;
+                }, 2000);
+            }, 1500);
+        });
+        
+        // Initialize everything when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            init();
+            updateCountdown();
+            animateStats();
+        });
+    </script>
+</body>
+</html>
