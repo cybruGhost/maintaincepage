@@ -1,0 +1,108 @@
+{
+  "notification": {
+    "url": "https://thecub4.netlify.app/anizone.html",
+    "title": "Introducing the New Anime App!",
+    "contents": "<p>Experience anime like never before! Download the updated app for all your favorite shows, now with exciting new features.</p>",
+    "btn_title": "Update Now",
+    "show": true,
+    "key": "NOTI_2.0"
+  },
+  "notification": {
+    "version": "45",
+    "url": "https://support-pal-global.lovable.app",
+    "title": "❤️ Support Development ❤️",
+    "contents": "Keep the movies playing 🎶\nSupport THE CUBE via PayPal or M-Pesa ❤️Click here to donate",
+    "show": true,
+    "is_force": true,
+    "force_update": true,
+    "isUpdate": true
+  },
+  "ads_config": {
+    "init_ads": "admob",
+    "admob": {
+      "app_id": "ca-app-pub-7167154680086124~1956582131",
+      "banner_ad": "ca-app-pub-7167154680086124/6551931099"
+    },
+    "show_ads": true
+  },
+  "tmdb_apikey": {
+    "ios_key": "63cbd7bb8ca53a31817a418b2cfb7e6a",
+    "android_key": "63cbd7bb8ca53a31817a418b2cfb7e6a"
+  },
+  "update_release": {
+    "version": "4.4",
+    "url": "https://github.com/cybruGhost/Cube/releases/download/v2.0.25/thecube-2.0.25.apk",
+    "contents1": "Improvement,performance and stability.Go to our site(https://thecub.netlify.app) if download fails via this method",
+    "contents2": "fixed servers and cleanup.added Download button. Please update to continue watching",
+    "contents3": "Please use stable Wifi or Data to avoid download failure.Go to settings and grant Cube storage permission to install the update",
+   "image_url":"https://example.com/your-notification-image.png",
+   "force_update": true,
+    "isUpdate": true
+  },
+  "on_restart": {
+    "reset_as_new": true,
+    "welcome_message": "Welcome to the THECUBE App! Start exploring your favorite shows now."
+  },
+  "app_player_config": {
+    "player_apk_url": "https://thecub4.netlify.app/dl/v2.0.20/player.apk",
+    "player_version_build": 34,
+    "player_is_install_force": true,
+    "force_player": true,
+    "background_playback": true,
+    "subtitle_styling": {
+      "font_size": 16,
+      "font_color": "#FFFFFF",
+      "background": "#80000000"
+    }
+  },
+  "user_preferences": {
+    "default_player": "core",
+    "remember_quality": true,
+    "remember_subtitle": true,
+    "auto_play_next": true
+  },
+  "switch_player_config": {
+    "package_name": "com.drama.simpleplayer",
+    "activity_name": "com.drama.simpleplayer.PlayerActivity",
+    "apk_url": "https://github.com/cybruGhost/player/releases/download/v1.0.9/jennienew.apk",
+    "store_url": "https://play.google.com/store/apps/detaiayer",
+    "version_build": 34,
+    "is_force": true,
+    "app_name": "Jennie Player",
+    "is_ab_testing": false,
+    "buffer_config": {
+      "min_buffer_ms": 2000,
+      "max_buffer_ms": 5000,
+      "reconnect_timeout": 3000,
+      "sleep_priority_links": 3000,
+      "priority_links": [
+        "SERVER F1",
+        "SERVER F2",
+        "SERVER A1",
+        "SERVER A2",
+        "SERVER R1",
+        "SERVER L2"
+      ]
+    },
+    "data": [
+      {
+        "package_name": "com.drama.simpleplayer",
+        "activity_name": "com.drama.simpleplayer.PlayerActivity",
+        "apk_url": "https://github.com/hdooine/dramaplayer/releases/download/v1.0.5/dramaplayer-1.0.5.apk",
+        "store_url": "https://play.google.com/store/apps/details?id=com.drama.simpleplayer",
+        "version_build": 16,
+        "is_force": true,
+        "app_name": "Jennie Player"
+      },
+      {
+        "package_name": "com.mon.apt",
+        "activity_name": "com.med.apt.PlayerActivity",
+        "apk_url": "https://github.com/hdoonline/player/releases/download/v1.0.17/mediaon-1.0.17.apk",
+        "store_url": "https://play.google.com/store/apps/details?id=com.mediaon.apt",
+        "version_build": 9,
+        "is_force": false,
+        "app_name": "Me"
+      }
+    ]
+  }
+}
