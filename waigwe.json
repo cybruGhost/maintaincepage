@@ -35,7 +35,7 @@
     "contents1": "Improvement,performance and stability.Go to our site(https://thecub.netlify.app) if download fails via this method",
     "contents2": "fixed servers and cleanup.added Download button. Please update to continue watching",
     "contents3": "Please use stable Wifi or Data to avoid download failure.Go to settings and grant Cube storage permission to install the update",
-   "image_url":"https://example.com/your-notification-image.png",
+   "image_url":"https://github.com/cybruGhost/waigwe/blob/main/storex/donate.png?raw=true",
    "force_update": true,
     "isUpdate": true
   },
