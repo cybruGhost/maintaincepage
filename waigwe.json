@@ -1,18 +1,12 @@
 {
   "notification": {
-    "url": "https://thecub4.netlify.app/anizone.html",
-    "title": "Introducing the New Anime App!",
-    "contents": "<p>Experience anime like never before! Download the updated app for all your favorite shows, now with exciting new features.</p>",
-    "btn_title": "Update Now",
-    "show": true,
-    "key": "NOTI_2.0"
-  },
-  "notification": {
-    "version": "45",
     "url": "https://support-pal-global.lovable.app",
     "title": "❤️ Support Development ❤️",
     "contents": "Keep the movies playing 🎶\nSupport THE CUBE via PayPal or M-Pesa ❤️Click here to donate",
+    "btn_title": "Update Now",
     "show": true,
+    "key": "NOTI_2.0",
+    "image_url": "https://github.com/cybruGhost/waigwe/blob/main/storex/donate.png?raw=true",
     "is_force": true,
     "force_update": true,
     "isUpdate": true
@@ -35,8 +29,8 @@
     "contents1": "Improvement,performance and stability.Go to our site(https://thecub.netlify.app) if download fails via this method",
     "contents2": "fixed servers and cleanup.added Download button. Please update to continue watching",
     "contents3": "Please use stable Wifi or Data to avoid download failure.Go to settings and grant Cube storage permission to install the update",
-   "image_url":"https://github.com/cybruGhost/waigwe/blob/main/storex/donate.png?raw=true",
-   "force_update": true,
+    "image_url": "https://github.com/cybruGhost/waigwe/blob/main/storex/donate.png?raw=true",
+    "force_update": true,
     "isUpdate": true
   },
   "on_restart": {
