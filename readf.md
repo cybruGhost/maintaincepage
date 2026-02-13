@@ -1,90 +1,115 @@
 
-# ⭐ 𝐒𝐓𝐀𝐑 𝐀𝐍𝐃 𝐅𝐎𝐋𝐋𝐎𝐖 😅 𝐍𝐎𝐖!!! ⭐
-## 𝐓𝐡𝐞 𝐰𝐚𝐲 𝐭𝐨 𝐠𝐨
-
 </div>
 
 ---
 
-# 🆕 𝐍𝐄𝐖 𝐅𝐄𝐀𝐓𝐔𝐑𝐄 (𝐯𝟏.𝟕.𝟗)
+## 📝 𝐋𝐘𝐑𝐈𝐂𝐒 & 𝐏𝐋𝐀𝐘𝐋𝐈𝐒𝐓𝐒 📝
+
+- **Lyrics** (fetch, edit, translate, synced/unsynced)
+- **Playlist Management** (Import/Export, RiMusic-compatible)
+- **Import backups from RiMusic**
+
+---
+
+## 🎨 𝐂𝐔𝐒𝐓𝐎𝐌𝐈𝐙𝐀𝐓𝐈𝐎𝐍 🎨
+
+- **Dynamic Themes**
+- **Sleep Timer** (fully customizable)
+- **Audio Controls:**  
+  - Playback speed, pitch, volume, normalization  
+  - Skip silence toggle
+
+---
+
+## 📱 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 📱
+
+- **Widget Support** *(experimental)*
+- **Android Auto & TV Support**
+- **Fixed on-device performance**
+
+---
+
+## ⚙️ 𝐔𝐓𝐈𝐋𝐈𝐓𝐈𝐄𝐒 ⚙️
+
+- **Check for Updates** enabled toggle in settings
+- **Export:** settings, downloaded, and cached media
+- **Expand localization and language support**
+
+---
+
+# 🛠 𝐓𝐎-𝐃𝐎 & 𝐑𝐎𝐀𝐃𝐌𝐀𝐏 🛠
+
+- [ ] Improved playlist mood detection
+- [ ] Optimize memory for large cache usage  
+- [ ] Fix UI to be more like RiMusic
+- [ ] Add general improvements
+- [ ] Expand localization and language support
+
+---
+
+# 📊 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐒𝐓𝐀𝐓𝐈𝐒𝐓𝐈𝐂𝐒 (𝐋𝐈𝐕𝐄 𝐓𝐑𝐀𝐂𝐊𝐈𝐍𝐆) 📊
+
+**All downloads in real-time:**
 
 <div align="center">
 
-## 🎨 𝐒𝐏𝐎𝐓𝐈𝐅𝐘 𝐂𝐀𝐍𝐕𝐀𝐒 (𝐁𝐄𝐓𝐀) 🎨
+### 📥 𝐑𝐄𝐀𝐋-𝐓𝐈𝐌𝐄 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐂𝐎𝐔𝐍𝐓𝐄𝐑𝐒 📥
+
+| Metric | Badge | Live Count |
+|:---:|:---:|:---:|
+| **All-Time Downloads** | [![Total Downloads](https://img.shields.io/github/downloads/cybruGhost/Cubic-Music/total?label=Total%20Downloads&color=blue)](https://github.com/cybruGhost/Cubic-Music/releases) | **Every download ever made** |
+| **Current Release** | [![Latest Release Downloads](https://img.shields.io/github/downloads/cybruGhost/Cubic-Music/latest/total?label=Latest%20Release&color=green)](https://github.com/cybruGhost/Cubic-Music/releases/latest) | **v1.7.9 downloads only** |
+| **Version-Specific** | [![v1.7.9 Downloads](https://img.shields.io/github/downloads/cybruGhost/Cubic-Music/v1.7.9/total?label=v1.7.9%20Downloads&color=orange)](https://github.com/cybruGhost/Cubic-Music/releases/tag/v1.7.9) | **This version only** |
+| **All Releases** | [![All Releases](https://img.shields.io/github/downloads/cybruGhost/Cubic-Music/total?label=All%20Releases&color=success)](https://github.com/cybruGhost/Cubic-Music/releases) | **Across all versions** |
 
 </div>
 
-### **𝐖𝐡𝐚𝐭 𝐢𝐬 𝐒𝐩𝐨𝐭𝐢𝐟𝐲 𝐂𝐚𝐧𝐯𝐚𝐬?**
+---
 
-> Spotify Canvas is a short, looping visual (3–8 second video) that appears in place of static album artwork while a song is playing in the Spotify mobile app. Instead of a still image, listeners see a subtle, animated visual that enhances the mood and identity of the track.
+# ⚖️ 𝐋𝐄𝐆𝐀𝐋 𝐍𝐎𝐓𝐈𝐂𝐄 ⚖️
 
-- Canvas videos are silent, vertical, and loop seamlessly, designed to complement music without distracting from it.
-
-<div align="center">
-
-| | |
-|:---:|:---:|
-| 🎬 | 🎵 |
-| **VISUAL** | **AUDIO** |
-| silent · looping · 3-8s | seamless integration |
-
-</div>
-
-<div align="center">
-  <img src="assets/screensho2.jpeg" width="280" alt="Cubic Music Screenshot"/>
-  <img src="assets/scrrenshot.jpeg" width="280" alt="Cubic Music Screenshot"/>
-</div>
+> Cubic Music respects music copyrights and **does not enable illegal downloads**.  
+> All content is streamed via licensed APIs or legitimate external sources only.
 
 ---
 
-# 🎵 𝐀𝐁𝐎𝐔𝐓 𝐂𝐔𝐁𝐈𝐂 𝐌𝐔𝐒𝐈𝐂 🎵
+# ⚠️ 𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑 ⚠️
 
-> **Cubic Music** is a very powerful, multilingual YouTube Music frontend for Android. It features streaming, full downloads, and stunning visuals—built with a sleek, modern UI focused on performance and user freedom.
-
----
-
-# 🚀 𝐂𝐔𝐑𝐑𝐄𝐍𝐓 𝐕𝐄𝐑𝐒𝐈𝐎𝐍: `𝐯𝟏.𝟕.𝟗`  
-🔧 **𝐒𝐭𝐚𝐭𝐮𝐬:** 𝐁𝐞𝐭𝐚 — actively improving and adding more features
+> This project is **not affiliated with, endorsed by, or sponsored by YouTube, Google LLC, or their affiliates**.  
+> All trademarks and intellectual property belong to their respective owners.
 
 ---
 
-# ✨ 𝐊𝐄𝐘 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 ✨
-
----
-
-## 🔁 𝐌𝐔𝐒𝐈𝐂 𝐑𝐄𝐖𝐈𝐍𝐃 (𝐍𝐄𝐖) 🔁
-
-> **Cubic Music Rewind** is Cubic Music's version of Spotify Wrapped — a smart recap of your listening habits.
+# 🔌 𝐂𝐎𝐍𝐕𝐄𝐑𝐓 𝐀𝐏𝐈 𝐒𝐓𝐀𝐓𝐔𝐒 🔌
 
 <div align="center">
 
 | | | |
 |:---:|:---:|:---:|
-| 🎧 | ⏱️ | 🔥 |
-| **Top songs & artists** | **Total listening time** | **Favorite genres & moods** |
-| 📅 | 💫 | 🎯 |
-| **Listening streaks** | **Highlights** | **Your story** |
-
-</div>
-
-**Your music. Your stats. Your story — ready to relive and share.**
-
----
-
-## 🆕 𝐋𝐀𝐓𝐄𝐒𝐓 𝐀𝐃𝐃𝐈𝐓𝐈𝐎𝐍𝐒 🆕
-
-<div align="center">
-
-| Feature | Description |
-|:---:|:---:|
-| **🎯 Spotify Playlists Support** | Import your favorite playlists |
-| **⚠️ Explicit Content Tags** | Know what you're listening to |
-| **💬 Comments Feature** | Engage with the music community |
+| ![API Status](https://img.shields.io/badge/dynamic/json?label=API&query=$.0.type&url=https://yt.omada.cafe/api/v1/search?q=test&color=brightgreen) | ![Search](https://img.shields.io/badge/dynamic/json?label=Search&query=$.0.type&prefix=OK&url=https://yt.omada.cafe/api/v1/search?q=test) | ![Results](https://img.shields.io/badge/dynamic/json?label=Results&query=$.length&url=https://yt.omada.cafe/api/v1/search?q=test) |
 
 </div>
 
 ---
 
-## 🎧 𝐂𝐎𝐑𝐄 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 🎧
-
 <div align="center">
+
+**𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 ❤️ 𝐛𝐲 𝐚 𝐥𝐞𝐚𝐫𝐧𝐞𝐫** [𝐜𝐲𝐛𝐫𝐮𝐆𝐡𝐨𝐬𝐭](https://github.com/cybruGhost)
+
+# ⭐ 𝐃𝐨𝐧'𝐭 𝐟𝐨𝐫𝐠𝐞𝐭 𝐭𝐨 𝐬𝐭𝐚𝐫 𝐚𝐧𝐝 𝐟𝐨𝐥𝐥𝐨𝐰 𝐟𝐨𝐫 𝐮𝐩𝐝𝐚𝐭𝐞𝐬! 🚀
+
+</div>
+
+---
+
+# 📋 𝐒𝐔𝐏𝐏𝐎𝐑𝐓𝐄𝐃 𝐏𝐋𝐀𝐘𝐋𝐈𝐒𝐓 𝐅𝐎𝐑𝐌𝐀𝐓𝐒 📋
+
+---
+
+## 🧩 **𝟏. 𝐂𝐨𝐦𝐩𝐚𝐭𝐢𝐛𝐥𝐞 𝐀𝐩𝐩 𝐅𝐨𝐫𝐦𝐚𝐭 (𝐍𝐚𝐭𝐢𝐯𝐞 𝐅𝐨𝐫𝐦𝐚𝐭)**
+
+```csv
+PlaylistBrowseId,PlaylistName,MediaId,Title,Artists,Duration,ThumbnailUrl
+,Swipefy,1pEe7-tWv2M,Good Grief,Jenna Raine,160,https://inv.perditum.com/vi/1pEe7-tWv2M/hqdefault.jpg
+,Swipefy,yuPIdLtcqf0,Elastic Heart,Lauren Spencer Smith,270,https://inv.perditum.com/vi/yuPIdLtcqf0/hqdefault.jpg
+,Swipefy,s5vP_JVJ524,empty room,Isaac Levi,167,https://inv.perditum.com/vi/s5vP_JVJ524/hqdefault.jpg
