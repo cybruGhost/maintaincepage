@@ -31,7 +31,7 @@
     "android_key": "63cbd7bb8ca53a31817a418b2cfb7e6a"
   },
   "update_release": {
-    "version": "4.5",
+    "version": "4.4",
     "url": "https://github.com/cybruGhost/Cube/releases/download/v2.0.25/thecube-2.0.25.apk",
     "contents1": "Improvement,performance and stability.Go to our site(https://thecub.netlify.app) if download fails via this method",
     "contents2": "fixed servers and cleanup.added Download button. Please update to continue watching",
