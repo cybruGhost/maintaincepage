@@ -168,4 +168,4 @@ It shows:
 PlaylistBrowseId,PlaylistName,MediaId,Title,Artists,Duration,ThumbnailUrl
 ,Swipefy,1pEe7-tWv2M,Good Grief,Jenna Raine,160,https://inv.perditum.com/vi/1pEe7-tWv2M/hqdefault.jpg
 ,Swipefy,yuPIdLtcqf0,Elastic Heart,Lauren Spencer Smith,270,https://inv.perditum.com/vi/yuPIdLtcqf0/hqdefault.jpg
-,Swipefy,s5vP_JVJ524,empty room,Isaac Levi,167,https://inv.perditum.com/vi/s5vP_JVJ524/hqdefault.jpg
+,Swipefy,s5vP_JVJ524,empty room,Isaac Levi,167,https://inv.perditum.com/vi/s5vP_JVJ524/hqdefault.jpgn
