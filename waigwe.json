@@ -1,23 +1,25 @@
 {
   "notification": {
     "url": "https://thecub4.netlify.app/anizone.html",
-    "title": "Introducing the New Anime App!",
-    "contents": "<p>Experience anime like never before! Download the updated app for all your favorite shows, now with exciting new features.</p>",
-    "btn_title": "Update Now",
+    "title": "🔥 New Anime Experience 🔥",
+    "contents": "<p>Anime streaming just got better. Faster loading, cleaner design, upgraded servers and smoother playback are now live.</p><p>Discover your favorite anime with the new generation experience.</p>",
+    "btn_title": "Explore Now",
     "show": true,
     "key": "NOTI_2.0"
   },
-  "notification": {
+
+  "support_notification": {
     "version": "50",
     "url": "https://support-pal-global.lovable.app",
-    "title": "❤️ Support Development ❤️",
-    "contents": "Keep the movies playing 🎶\nSupport THE CUBE via PayPal or M-Pesa ❤️Click here to donate",
-"image_url":"https://github.com/cybruGhost/waigwe/blob/main/storex/donate.png?raw=true",
+    "title": "🔥 THE CUBE IS BACK 🔥",
+    "contents": "We’re back. Bigger, cleaner, louder. 🎬🔥\nSupport THE CUBE through PayPal or M-Pesa and help keep the movies and anime streaming for everyone ❤️",
+    "image_url": "https://github.com/cybruGhost/waigwe/blob/main/storex/donate.png?raw=true",
     "show": true,
     "is_force": true,
     "force_update": true,
     "isUpdate": true
   },
+
   "ads_config": {
     "init_ads": "admob",
     "admob": {
@@ -26,24 +28,28 @@
     },
     "show_ads": true
   },
+
   "tmdb_apikey": {
     "ios_key": "63cbd7bb8ca53a31817a418b2cfb7e6a",
     "android_key": "63cbd7bb8ca53a31817a418b2cfb7e6a"
   },
+
   "update_release": {
     "version": "4.6",
     "url": "https://github.com/XOxoidontwant/Cube/releases/download/v2.0.26/thecube-2.0.26.apk",
-    "contents1": "Improvement,performance and Internalplayer.Go to our site(https://thecub.netlify.app) if download fails via this method",
-    "contents2": "fixed servers and cleanup.added Download button. Please update to continue watching",
-    "contents3": "Please use stable Wifi or Data to avoid download failure.Go to settings and grant Cube storage permission to install the update",
-   "image_url":"https://github.com/cybruGhost/waigwe/blob/main/storex/donate.png?raw=true",
-   "force_update": true,
+    "contents1": "Massive performance improvements, upgraded internal player and cleaner streaming experience. If download fails, visit https://thecub.netlify.app",
+    "contents2": "Servers fixed, playback optimized, buffering reduced and download support improved. Please update to continue streaming smoothly.",
+    "contents3": "Use stable Wi-Fi or mobile data during update installation. Grant storage permission when Android requests it.",
+    "image_url": "https://github.com/cybruGhost/waigwe/blob/main/storex/donate.png?raw=true",
+    "force_update": true,
     "isUpdate": true
   },
+
   "on_restart": {
     "reset_as_new": true,
-    "welcome_message": "Welcome to the THECUBE App! Start exploring your favorite shows now."
+    "welcome_message": "Welcome back to THE CUBE 🔥 Start streaming movies, anime and shows with the upgraded experience."
   },
+
   "app_player_config": {
     "player_apk_url": "https://thecub4.netlify.app/dl/v2.0.20/player.apk",
     "player_version_build": 34,
@@ -56,26 +62,31 @@
       "background": "#80000000"
     }
   },
+
   "user_preferences": {
     "default_player": "core",
     "remember_quality": true,
     "remember_subtitle": true,
     "auto_play_next": true
   },
+
   "switch_player_config": {
     "package_name": "com.drama.simpleplayer",
     "activity_name": "com.drama.simpleplayer.PlayerActivity",
     "apk_url": "https://github.com/cybruGhost/player/releases/download/v1.0.9/jennienew.apk",
-    "store_url": "https://play.google.com/store/apps/detaiayer",
+    "store_url": "https://play.google.com/store/apps/details?id=com.drama.simpleplayer",
     "version_build": 34,
     "is_force": true,
     "app_name": "Jennie Player",
+
     "is_ab_testing": false,
+
     "buffer_config": {
       "min_buffer_ms": 2000,
       "max_buffer_ms": 5000,
       "reconnect_timeout": 3000,
       "sleep_priority_links": 3000,
+
       "priority_links": [
         "SERVER F1",
         "SERVER F2",
@@ -85,6 +96,7 @@
         "SERVER L2"
       ]
     },
+
     "data": [
       {
         "package_name": "com.drama.simpleplayer",
@@ -95,6 +107,7 @@
         "is_force": true,
         "app_name": "Jennie Player"
       },
+
       {
         "package_name": "com.mon.apt",
         "activity_name": "com.med.apt.PlayerActivity",
