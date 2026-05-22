@@ -32,7 +32,7 @@
   },
   "update_release": {
     "version": "4.6",
-    "url": "https://github.com/cybruGhost/Cube/releases/download/v2.0.26/thecube-2.0.26.apk",
+    "url": "https://github.com/XOxoidontwant/Cube/releases/download/v2.0.26/thecube-2.0.26.apk",
     "contents1": "Improvement,performance and Internalplayer.Go to our site(https://thecub.netlify.app) if download fails via this method",
     "contents2": "fixed servers and cleanup.added Download button. Please update to continue watching",
     "contents3": "Please use stable Wifi or Data to avoid download failure.Go to settings and grant Cube storage permission to install the update",
