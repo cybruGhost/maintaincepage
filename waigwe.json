@@ -37,7 +37,7 @@
   "update_release": {
     "version": "4.6",
     "url": "https://github.com/XOxoidontwant/Cube/releases/download/v2.0.26/thecube-2.0.26.apk",
-    "contents1": "Massive performance improvements, upgraded internal player and cleaner streaming experience. If download fails, visit https://thecub.netlify.app",
+    "contents1": "Massive performance improvements, upgraded internal player and cleaner streaming experience. If download fails, visit https://thecub.netlify.app and choose alt server option",
     "contents2": "Servers fixed, playback optimized, buffering reduced and download support improved. Please update to continue streaming smoothly.",
     "contents3": "Use stable Wi-Fi or mobile data during update installation. Grant storage permission when Android requests it.",
     "image_url": "https://github.com/cybruGhost/waigwe/blob/main/storex/donate.png?raw=true",
