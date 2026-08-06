@@ -1,13 +1,10 @@
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/drkvenom786/drkvenom786/main/venom.svg" alt="V E N O M Header" />
+<img width="100%" src="https://raw.githubusercontent.com/cybruGhost/maintaincepage/main/ghost.svg" alt="G H O S T Header" />
 
 <br/>
 
-<a href="https://vennomx.com"><img src="https://img.shields.io/badge/WEBSITE-vennomx.com-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-<a href="https://github.com/drkvenom786"><img src="https://img.shields.io/badge/GITHUB-drkvenom786-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-<a href="mailto:drkvenom786@gmail.com"><img src="https://img.shields.io/badge/EMAIL-drkvenom786-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://facebook.com/venomx.dev"><img src="https://img.shields.io/badge/FACEBOOK-venomx.dev-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
+<a href="https://github.com/cybruGhost"><img src="https://img.shields.io/badge/GITHUB-cybruGhost-181717?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="https://github.com/cybruGhost/Cubic-Music"><img src="https://img.shields.io/badge/CUBIC_MUSIC-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" /></a> <a href="https://github.com/cybruGhost/cube"><img src="https://img.shields.io/badge/THE_CUBE-Android-000000?style=for-the-badge&logo=android&logoColor=white" /></a> <a href="https://tryhackme.com/p/cybruGhost"><img src="https://img.shields.io/badge/TRYHACKME-cybruGhost-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
 
 </div>
 
@@ -21,13 +18,13 @@
 
 <img align="right" width="230" src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Coding.gif">
 
-**V E N O M** — designing and engineering digital products where clarity meets function.
+**C Y B R U G H O S T** — designing and engineering digital products where creativity meets function.
 
-- 🧠 Focused on building **practical, real-world software** — web apps, Android apps, bots, and AI tools.
-- 🎨 Blending **development** with **design instinct** to craft interfaces that feel effortless.
-- ⚙️ Comfortable across the stack — from Python & Node.js backends to modern React & Kotlin front ends.
-- 📍 Based in **India** — working globally, building digitally.
-- 💬 Always open to interesting builds, collaborations, and ideas worth shipping.
+* 🧠 Focused on building **practical, real-world software** — Android apps, web platforms, automation tools, and intelligent systems.
+* 🎨 Blending **software development** with **UI/UX design instinct** to create interfaces that feel clean and effortless.
+* ⚙️ Comfortable building with Python, Kotlin, Java, JavaScript, React, Firebase, and modern Android technologies.
+* 🔐 Interested in **cybersecurity, ethical hacking, scalable systems, and secure software engineering**.
+* 💬 Always ready to build new projects or improve existing ones. What matters is that they work.
 
 <br clear="right"/>
 
@@ -38,14 +35,17 @@
 <div align="center">
 
 ### Languages
-<img src="https://skillicons.dev/icons?i=py,js,ts,cpp,kotlin,java,html,css&theme=dark" />
+
+<img src="https://skillicons.dev/icons?i=py,kotlin,java,js,ts,dart,html,css&theme=dark" />
 
 ### Frameworks & Technologies
-<img src="https://skillicons.dev/icons?i=react,express,fastapi,nodejs,tailwind&theme=dark" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
 
-### Tools & Cloud Platforms
-<img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm,figma,cloudflare,aws&theme=dark" />
+<img src="https://skillicons.dev/icons?i=react,nodejs,firebase,tailwind&theme=dark" />
+<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+
+### Tools & Platforms
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,androidstudio,figma,linux&theme=dark" />
 
 </div>
 
@@ -59,28 +59,32 @@
 <tr>
 <td width="50%">
 
-### 🎵 AirBeats
-Advanced open-source YouTube Music client for Android & Windows with immersive players, multi-source modules, lyrics, stats, and modern Material 3 UI.
+### 🎵 Cubic Music
+
+A clean and modern Android music application built for smooth playback, downloads, lyrics, crossfade, personalization, and a polished listening experience.
 
 </td>
 <td width="50%">
 
-### 🎬 Airflix
-A sleek, modern web application engineered for smooth media streaming and content discovery.
+### 🎬 The Cube
+
+A modern Android entertainment application built around content discovery, profiles, downloads, playlists, phone support, and Android TV.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### ⚡ bmb-api
-A fast Python-based backend API service powering data processing and automation workflows.
+### 🍿 THE-CUBE Web
+
+A platform built for thrill-seekers, binge-watchers, and late-night explorers with minimal design, a powerful interface, and fast playback.
 
 </td>
 <td width="50%">
 
-### 🌐 Portfolio Website
-A personal digital identity — sleek, responsive, and built for presence.
+### ⚽ LiveSports
+
+An upgraded sports platform designed to provide a clean and simple way to discover and access live sporting events.
 
 </td>
 </tr>
@@ -94,12 +98,12 @@ A personal digital identity — sleek, responsive, and built for presence.
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.shion.dev/api?username=drkvenom786&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=E6E6E6&icon_color=8E8E8E&text_color=C9C9C9"/>
-<img width="49%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=drkvenom786&theme=dark&hide_border=true&bg_color=0D1117&title_color=E6E6E6&text_color=C9C9C9&layout=compact"/>
+<img width="49%" src="https://github-readme-stats.shion.dev/api?username=cybruGhost&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=E6E6E6&icon_color=8E8E8E&text_color=C9C9C9"/>
+<img width="49%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=cybruGhost&theme=dark&hide_border=true&bg_color=0D1117&title_color=E6E6E6&text_color=C9C9C9&layout=compact"/>
 
 <br/><br/>
 
-<img width="60%" src="https://github-readme-activity-graph.vercel.app/graph?username=drkvenom786&theme=react-dark&hide_border=true&bg_color=0D1117&color=E6E6E6&line=8E8E8E&point=FFFFFF"/>
+<img width="60%" src="https://github-readme-activity-graph.vercel.app/graph?username=cybruGhost&theme=react-dark&hide_border=true&bg_color=0D1117&color=E6E6E6&line=8E8E8E&point=FFFFFF"/>
 
 </div>
 
@@ -109,15 +113,14 @@ A personal digital identity — sleek, responsive, and built for presence.
 
 ### Let's build something worth shipping.
 
-<a href="https://vennomx.com"><img src="https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=todoist&logoColor=white" /></a>
-<a href="https://github.com/drkvenom786"><img src="https://img.shields.io/badge/GITHUB-drkvenom786-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://github.com/cybruGhost"><img src="https://img.shields.io/badge/PROJECTS-000000?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="https://github.com/cybruGhost"><img src="https://img.shields.io/badge/GITHUB-cybruGhost-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=drkvenom786&style=for-the-badge&color=1a1a1a&labelColor=0D1117" />
+<img src="https://komarev.com/ghpvc/?username=cybruGhost&style=for-the-badge&color=1a1a1a&labelColor=0D1117" />
 
 <br/><br/>
 
-<sub>© V E N O M — Designed for developers who think in systems.</sub>
+<sub>© C Y B R U G H O S T — Designed for developers who build, experiment, and ship.</sub>
 
 </div>
