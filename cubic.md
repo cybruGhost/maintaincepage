@@ -1,171 +1,123 @@
-# Cubic Music 
----
-
-## ❤️ Support the project❣️💓
-
-If you enjoy our work and want to support development, you can buy us a coffee ☕  
-
-👉 **[ko-fi.com/anonghost40418](https://ko-fi.com/anonghost40418)**
-
-Every bit of support helps keep cubicmusic growing 🚀  
-
----
-
 <div align="center">
-  
-[![Latest Version](https://img.shields.io/github/v/release/cybruGhost/Cubic-Music?label=Latest%20Version)](https://github.com/cybruGhost/Cubic-Music/releases/latest)  
-[![Total Downloads](https://img.shields.io/github/downloads/cybruGhost/Cubic-Music/total?label=Total%20Downloads)](https://github.com/cybruGhost/Cubic-Music/releases)  
-[![Latest Release Downloads](https://img.shields.io/github/downloads/cybruGhost/Cubic-Music/latest/total?label=Latest%20Release%20Downloads)](https://github.com/cybruGhost/Cubic-Music/releases/latest)  
-[![Crowdin](https://img.shields.io/badge/𝐓𝐑𝐀𝐍𝐒𝐋𝐀𝐓𝐄-2E3340?style=for-the-badge&logo=crowdin&logoColor=white)](https://crowdin.com/project/cubic-music)
-[![License: GPL v3](https://img.shields.io/github/license/cybruGhost/Cubic-Music?color=blue)](https://www.gnu.org/licenses/gpl-3.0)
+
+<img width="100%" src="https://raw.githubusercontent.com/drkvenom786/drkvenom786/main/venom.svg" alt="V E N O M Header" />
+
+<br/>
+
+<a href="https://vennomx.com"><img src="https://img.shields.io/badge/WEBSITE-vennomx.com-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="https://github.com/drkvenom786"><img src="https://img.shields.io/badge/GITHUB-drkvenom786-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="mailto:drkvenom786@gmail.com"><img src="https://img.shields.io/badge/EMAIL-drkvenom786-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://facebook.com/venomx.dev"><img src="https://img.shields.io/badge/FACEBOOK-venomx.dev-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
 
 </div>
 
-<br>
+<br/>
 
-> 🎵 **Cubic Music** is an evolving streaming app focused on smooth music playback and user experience.  
-> - While it might not be as polished as some mature apps yet, it's a solid, good-looking, and lightweight alternative.  
-> - The project is maintained and will only be updated when I fix bugs or add features as I learn Kotlin skills!
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
 
-<div align="center">
-  
-**⭐ STAR AND FOLLOW 😅 NOW!!! The way to go**
+<br/>
 
-</div>
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="30" /> About
 
----
+<img align="right" width="230" src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Coding.gif">
 
-## 🚀 New in v1.8.0 — *Spotify Canvas (beta)*
+**V E N O M** — designing and engineering digital products where clarity meets function.
 
-**What is Spotify Canvas?**
+- 🧠 Focused on building **practical, real-world software** — web apps, Android apps, bots, and AI tools.
+- 🎨 Blending **development** with **design instinct** to craft interfaces that feel effortless.
+- ⚙️ Comfortable across the stack — from Python & Node.js backends to modern React & Kotlin front ends.
+- 📍 Based in **India** — working globally, building digitally.
+- 💬 Always open to interesting builds, collaborations, and ideas worth shipping.
 
-> Spotify Canvas is a short, looping visual (3–8 second video) that appears in place of static album artwork while a song is playing. Instead of a still image, listeners see a subtle, animated visual that enhances the mood and identity of the track.
-> 
-> *Canvas videos are silent, vertical, and loop seamlessly — designed to complement music without distracting from it.*
+<br clear="right"/>
 
-<div align="center">
-  <img src="assets/screensho2.jpeg" width="280" alt="Cubic Music Screenshot"/>
-  <img src="assets/scrrenshot.jpeg" width="280" alt="Cubic Music Screenshot"/>
-</div>
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
 
----
-
-## 🌍 Help Translate Cubic Music!
-
-We welcome contributors to help make **Cubic Music** accessible in more languages!  
-
-Join our translation project on Crowdin:  
-
-[![Crowdin](https://img.shields.io/badge/𝐓𝐑𝐀𝐍𝐒𝐋𝐀𝐓𝐄-2E3340?style=for-the-badge&logo=crowdin&logoColor=white)](https://crowdin.com/project/cubic-music)
-
----
-
-## 🎵 About Cubic Music
-
-**Cubic Music** is a powerful, multilingual YouTube Music frontend for Android. It features streaming, full downloads, and stunning visuals — built with a sleek, modern UI focused on performance and user freedom.
-
----
-
-## 🔥 Current Version: `v1.8.0`  
-🔧 **Status:** Beta — actively improving and adding more features
-
----
-
-## ✨ Key Features
-
-### 🔁 Music Rewind *(new)*
-
-**Cubic Music Rewind** is our version of Spotify Wrapped — a smart recap of your listening habits.
-
-It shows:
-- 🎧 **Top songs & artists**
-- ⏱️ **Total listening time**
-- 🔥 **Favorite genres & moods**
-- 📅 **Listening streaks & highlights**
-
-*Your music. Your stats. Your story — ready to relive and share.*
-
----
-
-### 🆕 Latest Additions
-- **Spotify Playlists Support** — Import your favorite playlists
-- **Explicit Content Tags** — Know what you're listening to  
-- **Comments Feature** — Engage with the music community
-
----
-
-### 🎧 Core Features
-- **Smart Caching** for offline listening (custom cache size)
-- **Batch Downloads** of songs & full playlists
-- **Offline Mode** — even without an internet connection
-- **Background Playback**
-- **Listening Statistics & History**
-- **Audio Visualizer** with multiple styles
-
----
-
-### 📝 Lyrics & Playlists
-- **Lyrics** — fetch, edit, translate, synced/unsynced
-- **Playlist Management** — Import/Export, RiMusic-compatible
-- **Import backups from RiMusic**
-
----
-
-### 🎨 Customization
-- **Dynamic Themes**
-- **Sleep Timer** — fully customizable
-- **Audio Controls:**  
-  - Playback speed, pitch, volume, normalization  
-  - Skip silence toggle
-
----
-
-### 📱 Platform Support
-- **Widget Support** *(experimental)*
-- **Android Auto & TV Support**
-- **Fixed on-device performance**
-
----
-
-### ⚙️ Utilities
-- **Check for Updates** toggle in settings
-- **Export:** settings, downloaded, and cached media
-- **Expand localization and language support**
-
----
-
-## 🛠 To-Do & Roadmap
-
-- [ ] Improved playlist mood detection
-- [ ] Optimize memory for large cache usage  
-- [ ] Fix UI to be more like RiMusic
-- [ ] Add general improvements
-- [ ] Expand localization and language support
-
----
-
-## 📊 Download Statistics — *Live Tracking*
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" width="28" /> Tech Stack
 
 <div align="center">
 
-### 📥 Real-time Download Counters
+### Languages
+<img src="https://skillicons.dev/icons?i=py,js,ts,cpp,kotlin,java,html,css&theme=dark" />
 
-| Metric | Badge | Live Count |
-|--------|-------|------------|
-| **All-Time Downloads** | [![Total Downloads](https://img.shields.io/github/downloads/cybruGhost/Cubic-Music/total?label=Total%20Downloads&color=blue)](https://github.com/cybruGhost/Cubic-Music/releases) | **Every download ever made** |
-| **Current Release** | [![Latest Release Downloads](https://img.shields.io/github/downloads/cybruGhost/Cubic-Music/latest/total?label=Latest%20Release&color=green)](https://github.com/cybruGhost/Cubic-Music/releases/latest) | **v1.8.0 downloads only** |
-| **Version-Specific** | [![v1.8.0 Downloads](https://img.shields.io/github/downloads/cybruGhost/Cubic-Music/v1.8.0/total?label=v1.8.0%20Downloads&color=orange)](https://github.com/cybruGhost/Cubic-Music/releases/tag/v1.8.0) | **This version only** |
-| **All Releases** | [![All Releases](https://img.shields.io/github/downloads/cybruGhost/Cubic-Music/total?label=All%20Releases&color=success)](https://github.com/cybruGhost/Cubic-Music/releases) | **Across all versions** |
+### Frameworks & Technologies
+<img src="https://skillicons.dev/icons?i=react,express,fastapi,nodejs,tailwind&theme=dark" />
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+
+### Tools & Cloud Platforms
+<img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm,figma,cloudflare,aws&theme=dark" />
 
 </div>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
 
-## 📋 Supported Playlist Formats
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Puzzle%20Piece.png" width="28" /> Featured Work
 
-### 🧩 **1. Compatible App Format (Native)**
-```csv
-PlaylistBrowseId,PlaylistName,MediaId,Title,Artists,Duration,ThumbnailUrl
-,Swipefy,1pEe7-tWv2M,Good Grief,Jenna Raine,160,https://inv.perditum.com/vi/1pEe7-tWv2M/hqdefault.jpg
-,Swipefy,yuPIdLtcqf0,Elastic Heart,Lauren Spencer Smith,270,https://inv.perditum.com/vi/yuPIdLtcqf0/hqdefault.jpg
-,Swipefy,s5vP_JVJ524,empty room,Isaac Levi,167,https://inv.perditum.com/vi/s5vP_JVJ524/hqdefault.jpgn
+<div align="center">
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎵 AirBeats
+Advanced open-source YouTube Music client for Android & Windows with immersive players, multi-source modules, lyrics, stats, and modern Material 3 UI.
+
+</td>
+<td width="50%">
+
+### 🎬 Airflix
+A sleek, modern web application engineered for smooth media streaming and content discovery.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### ⚡ bmb-api
+A fast Python-based backend API service powering data processing and automation workflows.
+
+</td>
+<td width="50%">
+
+### 🌐 Portfolio Website
+A personal digital identity — sleek, responsive, and built for presence.
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="28" /> GitHub Analytics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.shion.dev/api?username=drkvenom786&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=E6E6E6&icon_color=8E8E8E&text_color=C9C9C9"/>
+<img width="49%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=drkvenom786&theme=dark&hide_border=true&bg_color=0D1117&title_color=E6E6E6&text_color=C9C9C9&layout=compact"/>
+
+<br/><br/>
+
+<img width="60%" src="https://github-readme-activity-graph.vercel.app/graph?username=drkvenom786&theme=react-dark&hide_border=true&bg_color=0D1117&color=E6E6E6&line=8E8E8E&point=FFFFFF"/>
+
+</div>
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+
+<div align="center">
+
+### Let's build something worth shipping.
+
+<a href="https://vennomx.com"><img src="https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=todoist&logoColor=white" /></a>
+<a href="https://github.com/drkvenom786"><img src="https://img.shields.io/badge/GITHUB-drkvenom786-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=drkvenom786&style=for-the-badge&color=1a1a1a&labelColor=0D1117" />
+
+<br/><br/>
+
+<sub>© V E N O M — Designed for developers who think in systems.</sub>
+
+</div>
